@@ -35,7 +35,7 @@ PyObject* pyopencv_from(const cv::Mat& m);
 
 static void * do_numpy_import( )
 {
-    import_array( );
+    import_array1(NULL);
     return nullptr;
 }
 
